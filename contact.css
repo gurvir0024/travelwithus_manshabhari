@@ -1,0 +1,258 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  header{
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .nav{
+    height: 7vh;
+    background-color: #f4b94a;
+    box-shadow: 4px 4px 20px black;
+  }
+  
+  .logo{
+    margin: 10px;
+  }
+  
+  .logo a{
+    text-decoration: none;
+    color: brown;
+    font-size: 30px;
+    transition: .5s;
+    
+  }
+  
+  .logo a:hover{
+    color: rgb(95, 211, 213);
+    margin-top: -6px;
+  }
+  
+  .menu{
+    margin-top: 15px;
+  }
+  
+  .menu a{
+    text-decoration: none;
+    color: #000;
+    margin-right: 20px;
+    font-size: 20px;
+    transition: .5s;
+  
+  }
+  
+  .menu a:hover{
+    color: rgb(69, 178, 240);
+  }
+  
+  .btn{
+    margin-right: 10px;
+  }
+  
+  .menu button{
+    padding: 5px 10px;
+    background-color: antiquewhite;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    font-size: 20px;
+    margin-top: -10px;
+    cursor: pointer;
+    transition: .5s;
+  }
+  
+  .menu button:hover{
+    background-color: aquamarine;
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  body{
+      background-color: antiquewhite;
+  }
+
+  footer{
+    height: 30vh;
+    background-color: #9cafaa;
+  }
+  
+  .foot_con{
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .abt{
+    margin-top: 20px;
+    width: 17vw;
+    height: 40vh;
+  }
+  
+  .abt p{
+    color: #fff;
+    font-size: 16px;
+    line-height: 20px;
+  }
+  
+  .abt h2{
+    margin-bottom: 10px;
+    color: #fff;
+  }
+  
+  .branch{
+    margin-top: 20px;
+    width: 15vw;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .branch h2{
+    margin-bottom: 10px;
+    color: #fff;
+  }
+  
+  .branch a{
+    text-decoration: none;
+    margin-bottom: 10px;
+    color: #fff;
+    transition: .5s ease;
+  }
+  
+  .branch a:hover{
+    text-decoration: underline;
+    color: #4e5050;;
+  }
+  
+  .footer1{
+    height: 10vh;
+    background: #9cafaa;
+  }
+  
+  .footer1 hr{
+    margin: 0 auto;
+    width: 1200px;
+    border: none;
+    border: 1px solid gray;
+  }
+  
+  .copy{
+    margin-top: 20px;
+  }
+  
+  .copy p{
+    text-align: center;
+    font-size: 20px;
+    color: #fff;
+  }
+  
+  .copy span{
+    color: #4e5050;;
+    
+  }
+  
+  
+  
+  .text h3{
+    font-size: 1.5rem;
+    margin-top: 40px;
+    
+  
+  
+  }
+  .text h1{
+    font-size: 3.5rem;
+    margin-top: 20px;
+  }
+  #btn{
+    background-color: #f4b94a;
+    padding: 10px 20px ;
+    margin-top: 15px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .5s;
+    font-size: 17px;
+  }
+  
+  #btn:hover{
+    background-color: #f0a51a;
+  }
+  .text{
+    margin-top: 200px;
+  }
+  /* map code */
+  .map{
+    display: flex;
+    justify-content: space-around;
+  }
+  .tvs{
+    margin-top: 100px;
+}
+.tvs h4{
+    font-size: 2.2rem;
+}
+.tvs p{
+    font-size: 1.5rem;
+}
+  /* form code */
+  #bbb{
+    background-color: #f4b94a;
+  padding: 10px 20px ;
+  margin-top: 70px;
+  margin-bottom: 30px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: .5s;
+  font-size: 17px;
+}
+
+#bbb:hover{
+  background-color: #f0a51a;
+}
+  .fff{
+    margin-left: 80px;
+  } 
+  .fff .forms{
+    background: #d6dac8;
+    width: 30vw;
+    height: 60vh;
+  }
+  
+  .forms form{
+    margin-left: 20px;
+    margin-top: 10px;
+  }
+  
+  form input{
+    border: none;
+    padding: 12px;
+    width: 38%;
+    outline: none;
+    font-size: 16px;
+    border: 1px solid rgb(204, 197, 197);
+  }
+  
+  form h3{
+    font-size: 22px;
+    color: #5d5b5b;
+    margin-top: 65px;
+    margin-bottom: 20px;
+  } 
+  form textarea{
+    border-radius: 5px;
+    border: none;
+   
+
+  }
+  /* logo code */
+
